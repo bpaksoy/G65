@@ -1,3 +1,6 @@
-function myFunc(){
-  console.log("Your machine is infected!");
+
+function personalVirus(myName){
+  console.log("Your machine is infected, " + myName + "!!!");
 }
+personalVirus("Banu");
+personalVirus("Jen");

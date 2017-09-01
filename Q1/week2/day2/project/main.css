@@ -1,0 +1,27 @@
+body {
+ background-color: pink;
+ font-family: Arial;
+}
+h1 {
+  color: white;
+  display: inline;
+  background-color: pink;
+  font-family: Arial;
+}
+
+li.navigation{
+  display: inline;
+  font-size: 30px;
+}
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color : pink;
+}
+.box{
+  height: 100px;
+  width:100px;
+}

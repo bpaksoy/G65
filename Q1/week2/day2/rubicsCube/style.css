@@ -1,0 +1,45 @@
+.container {
+ margin: 0 auto;
+ height: 600px;
+ width: 600px;
+ background-color: purple;
+}
+#cube {
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 150px;
+  background-color: purple;
+}
+
+ /*#patch {
+  margin: 0 auto;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+ }*/
+#col2{
+ height: 50px;
+ width: 100px;
+ margin: 0 100px;
+ background-color: yellow;
+ display: block;
+}
+
+#row2 {
+  height: 100px;
+  width: 100px;
+  margin: 100px 100px
+  background-color: black;
+  display: block
+}
+
+#row3 {
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  float:right;
+  /*padding-bottom: -250px;*/
+}

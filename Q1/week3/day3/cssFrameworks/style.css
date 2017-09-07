@@ -1,0 +1,35 @@
+nav {
+ background-color: #eae72c;
+ padding: 5px 5px;
+
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+#middle {
+   background-color: #eae72c;
+   height: 500px;
+ }
+
+.brand-logo {
+
+}
+
+.page-footer {
+ background-color: #eae72c;
+}
+
+.page-footer .footer-copyright {
+  background-color: #f5ffc0;
+}
+
+.grey-text .text-lighten-4 .right {
+  color: black;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Maps API Example</title>
+  </head>
+  <body>
+  <form>
+     <input type="text" id="lat">
+     <input type="text" id="lng">
+     <input type="submit">
+  </form>
+
+    <div id="mapGoesHere">
+
+    </div>
+    <script>
+
+      function initMap() {
+        document.querySelector("form").addEventListener("submit", function(event){
+          event.preventDefault();
+          var lat = parseFloat(document.querySelector("#lat").value);
+          var lng = parseFloat(document.querySelector("#lng").value);
+          var marker = new google.maps.Marker({
+            zoom: 13,
+            position:{lat: lat, lng:lng},
+            map: map
+          });
+            console.log("Lat: " + lat + " "+ "Lang: " + lng);
+        });
+
+
+        var map = new google.maps.Map(document.querySelector("#mapGoesHere"), {
+          zoom: 12,
+          center: {lat: 40.7264, lng: -74.0078}
+        });
+
+    //     var students = [
+    //     {
+    //      name: "Jen",
+    //      lat: 40.7264,
+    //      lng: -74.0078
+    //     }, {
+    //      name: "Banu",
+    //      lat:40.7267529,
+    //      lng:-74.048957
+    //     }
+    //  ];
+
+      //   for(var i =0; i < students.length; i++){
+      //     var marker = new google.maps.Marker({
+      //       zoom: 13,
+      //       position:{lat: students[i].lat, lng:students[i].lng},
+      //       map: map
+      //     });
+      // }
+
+
+      }
+    </script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUOm9Z7AG0rigIDR5FhH9J_OYbfKGO_XM&callback=initMap"></script>
+  </body>
+</html>

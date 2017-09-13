@@ -18,10 +18,19 @@
     <script>
 
       function initMap() {
+        //var marker; // gets outside the eventListener and maintains stay
+
         document.querySelector("form").addEventListener("submit", function(event){
           event.preventDefault();
+
+          if(marker){
+            marker.setMap(null) // clears the marker
+          }
+
+
           var lat = parseFloat(document.querySelector("#lat").value);
           var lng = parseFloat(document.querySelector("#lng").value);
+
           var marker = new google.maps.Marker({
             zoom: 13,
             position:{lat: lat, lng:lng},
@@ -32,7 +41,7 @@
 
 
         var map = new google.maps.Map(document.querySelector("#mapGoesHere"), {
-          zoom: 12,
+          zoom: 13,
           center: {lat: 40.7264, lng: -74.0078}
         });
 

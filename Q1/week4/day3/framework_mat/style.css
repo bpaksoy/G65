@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding-top: 3em;
+}
+
+nav {
+  background-color: #637593;
+}
+
+.page-footer {
+  background-color: #637593;
+}
+
+form {}
+
+
+#submitButt {
+  background-color: #637593;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}

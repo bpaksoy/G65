@@ -1,0 +1,55 @@
+body {
+  background: #222;
+  color: white;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+/*
+  Colors:
+  #FFED5D
+  #FF7050
+  #222
+  #7BBADE
+*/
+
+/* Code Under This Line */
+.box-model {
+  height: 160px;
+  width: 600px;
+  background-color: #FFED5D;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-indent: 17px;
+}
+.b {
+  margin: 0 auto;
+  border: 5px solid #FF7050;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #FF7050;
+  height: 120px;
+  width: 550px;
+  text-indent: 8px;
+}
+
+.c {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 10px;
+  background-color: #222;
+  height: 80px;
+  width: 530px;
+}
+.d {
+  margin: 0 auto;
+  background-color:#7BBADE;
+  padding-top: 8px;
+  padding-left: 10px;
+  height: 40px;
+  width: 500px;
+}

@@ -1,0 +1,30 @@
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  padding: 0px;
+
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border: 1px solid black; /* delete me! */
+}
+
+
+/* Your Code Goes Under This Line */
+ #firstBox {
+   border: none;
+   box-shadow: 0 0 1em lightgray;
+ }
+ #technicolor {
+   box-shadow: 1em -0.3em 0.4em red, -1em -1em 0.4em blue, -0.3em 0.6em 0.4em #98FF4A;
+   border: none;
+ }
